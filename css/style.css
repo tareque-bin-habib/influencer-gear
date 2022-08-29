@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 145px;
 }
 
 .half-width {
@@ -42,4 +43,77 @@ ul li a {
 ul li a:hover {
     color: #E02C6D;
     border-bottom: 1px solid #E02C6D;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.banner-half {
+    width: 50%;
+}
+
+.banner-head {
+    font-size: 50px;
+}
+
+.pera {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.banner-info {
+    margin-left: 135px;
+}
+
+.web-button {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D;
+}
+
+.web-button:hover {
+    background-color: #de115c;
+}
+
+.fa-solid {
+    margin-left: 5px;
+}
+
+.banner-back {
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.banner-back img {
+    width: 80%;
+}
+
+.logo-tech {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 80%;
+    margin-left: 8%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+}
+
+.logo-tech img {
+    width: 60%;
+}
+
+.small-img img {
+    width: 38%;
 }
